@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.lframe {
+    background: url(/img/Frame-vertical.png) repeat-y top left;
+}
+
+.rframe {
+    background: url(/img/Frame-vertical.png) repeat-y top right;
+}
+
+.tframe {
+    background: url(/img/Frame-horizontal.png) repeat-x top left;
+}
+
+.bframe {
+    background: url(/img/Frame-horizontal.png) repeat-x bottom left;
+}
+
+.tlframe {
+    background: url(/img/Frabe-tl.png) no-repeat top left;
+}
+
+.blframe {
+    background: url(/img/Frame-bl.png) no-repeat bottom left;
+}
+
+.trframe {
+    background: url(/img/Frame-tr.png) no-repeat top right;
+}
+
+.brframe {
+    background: url(/img/Frame-br.png) no-repeat bottom right;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    line-height: 100%;
+}
